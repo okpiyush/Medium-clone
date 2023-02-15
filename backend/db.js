@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 
-const url =
-  "mongodb+srv://Piyush:piyush2001@cluster0.afug7ty.mongodb.net/?retryWrites=true&w=majority";
+const url ="myMongoDB Link";
 module.exports.connect = () => {
   mongoose
     .connect(url, {
